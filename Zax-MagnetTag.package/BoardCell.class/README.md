@@ -1,0 +1,1 @@
+An individual Cell where a Player resides.

@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"board",
-		"gm" ],
-	"name" : "Game",
+		"game" ],
+	"name" : "GameMaster",
 	"pools" : [
 		 ],
 	"super" : "Object",

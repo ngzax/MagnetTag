@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "DJR 7/10/2024 16:10",
 	"instvars" : [
-		"board",
-		"gm" ],
-	"name" : "Game",
+		"mouseAction" ],
+	"name" : "BoardCell",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SimpleSwitchMorph",
 	"type" : "normal" }

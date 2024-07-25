@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"board",
-		"gm" ],
-	"name" : "Game",
+		"cells" ],
+	"name" : "Board",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BorderedMorph",
 	"type" : "normal" }

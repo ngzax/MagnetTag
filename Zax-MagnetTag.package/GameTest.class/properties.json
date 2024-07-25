@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "DJR 7/9/2024 11:28",
 	"instvars" : [
-		"board",
-		"gm" ],
-	"name" : "Game",
+		"game" ],
+	"name" : "GameTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

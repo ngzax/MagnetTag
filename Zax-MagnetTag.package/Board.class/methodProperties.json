@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cellsPerSide" : "DJR 7/10/2024 16:38",
+		"initialize" : "DJR 7/10/2024 16:34",
+		"newCellAt:at:" : "DJR 7/10/2024 17:11",
+		"toggleNeighboursOfCellAt:at:" : "DJR 7/10/2024 17:17" } }
