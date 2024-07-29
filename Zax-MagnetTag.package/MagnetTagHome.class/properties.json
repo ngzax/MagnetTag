@@ -1,0 +1,14 @@
+{
+	"category" : "Zax-MagnetTag",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DJR 7/29/2024 16:02",
+	"instvars" : [
+		 ],
+	"name" : "MagnetTagHome",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }
