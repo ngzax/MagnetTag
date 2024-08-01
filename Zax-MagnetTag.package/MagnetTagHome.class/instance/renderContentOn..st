@@ -1,6 +1,7 @@
 rendering
 renderContentOn: html
 	"Render the MagnetTag Home Page."
+	| p |
 	html image
 		height: 64;
 		width: 64; 
@@ -8,11 +9,20 @@ renderContentOn: html
 	html heading 
  		level: 3; 
 		with: 'Welcome to Magnet Tag'.
+
+	p := MTPlayer new initialize.
+      p name: 'Daryl'.
+
 	html paragraph: [
  		html 
 			render: 'MagnetTag is a game you play against 3 other players on a random, ';
    		     	emphasis: 'unknown '; 
 			render: 'Board.'.
+		html paragraph: [
+			html 
+				render: p;
+				render: ' is our first Player.'.
+		].
 		html break.
 	].
       html horizontalRule.

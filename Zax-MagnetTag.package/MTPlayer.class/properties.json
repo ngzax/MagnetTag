@@ -1,0 +1,15 @@
+{
+	"category" : "Zax-MagnetTag",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DJR 8/1/2024 15:17",
+	"instvars" : [
+		"name",
+		"sheet" ],
+	"name" : "MTPlayer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
