@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Players" ],
-	"commentStamp" : "",
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"game" ],
-	"name" : "GameMaster",
+		 ],
+	"name" : "PlayerList",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WAComponent",
 	"type" : "normal" }
