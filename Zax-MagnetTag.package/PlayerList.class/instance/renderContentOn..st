@@ -5,7 +5,7 @@ renderContentOn: html
 	
 	html unorderedList: [
  		GameMaster players do: [ :player |
- 			html listItem: [ self renderPlayer: player on: html ] 
+ 			html listItem: [ html render: player ] 
 		]. 
 	].
 	
