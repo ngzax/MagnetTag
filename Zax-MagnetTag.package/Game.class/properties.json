@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"board",
-		"gm" ],
+		"gm",
+		"inProgress" ],
 	"name" : "Game",
 	"pools" : [
 		 ],

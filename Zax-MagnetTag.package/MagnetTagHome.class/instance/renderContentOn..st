@@ -9,9 +9,8 @@ renderContentOn: html
    		     	emphasis: 'unknown '; 
 			render: 'Board.'.
 		html unorderedList: [
-			html listItem: [
-				html anchor url: 'players';	with: ' Players'.
-			].
+			html listItem: [html anchor url: 'game'; with: ' Play'].
+			html listItem: [html anchor url: 'players';	with: ' Show Players'].
 		].
 		html break.
 	].

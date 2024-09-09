@@ -1,4 +1,5 @@
 playing
 play
-  "Transcript show: '(move)> '."
-  ^true.
+ 	"Transcript show: '(move)> '."
+ 	self inProgress: true.
+	^self.

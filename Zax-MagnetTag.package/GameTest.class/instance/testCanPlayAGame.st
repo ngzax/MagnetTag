@@ -1,3 +1,3 @@
 testing
 testCanPlayAGame
-	self assert: (game play).
+	self assert: (game play inProgress).
