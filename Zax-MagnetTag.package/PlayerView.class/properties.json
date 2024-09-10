@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Players" ],
-	"commentStamp" : "DJR 9/9/2024 14:05",
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"game" ],
-	"name" : "GameMaster",
+		 ],
+	"name" : "PlayerView",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WAComponent",
 	"type" : "normal" }

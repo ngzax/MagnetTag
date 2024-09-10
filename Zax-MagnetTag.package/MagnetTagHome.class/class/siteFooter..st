@@ -1,4 +1,4 @@
-as yet unclassified
+site-layout
 siteFooter: html
 	"Draws the standard page footer."
 	html horizontalRule.

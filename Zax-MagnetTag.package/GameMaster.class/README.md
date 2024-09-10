@@ -1,0 +1,1 @@
+The GameMaster controls all Games

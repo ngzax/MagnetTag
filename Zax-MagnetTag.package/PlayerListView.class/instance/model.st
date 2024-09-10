@@ -1,0 +1,3 @@
+rendering
+model
+	^ GameMaster players.

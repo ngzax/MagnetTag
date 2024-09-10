@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "DJR 7/9/2024 16:18",
-		"testCanManageAGame" : "DJR 8/27/2024 17:35" } }
+		"testCanManageAGame" : "DJR 8/27/2024 17:35",
+		"testHasStaticPlayers" : "DJR 9/10/2024 15:52" } }
