@@ -10,7 +10,7 @@ renderContentOn: html
 			render: 'Board.'.
 		html unorderedList: [
 			html listItem: [html anchor url: 'game'; with: ' Play'].
-			html listItem: [html anchor url: 'players';	with: ' Show Players'].
+			html listItem: [html anchor url: 'players';	with: ' Show All Players'].
 		].
 		html break.
 	].

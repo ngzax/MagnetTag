@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "DJR 9/10/2024 17:09",
 	"instvars" : [
 		"board",
 		"gm",
-		"inProgress" ],
+		"inProgress",
+		"players" ],
 	"name" : "Game",
 	"pools" : [
 		 ],

@@ -1,8 +1,8 @@
 rendering
 renderContentOn: html
 	"Render the MagnetTag Player List Page."
-	MagnetTagHome siteHeader: html.
+	MagnetTag siteHeader: html.
 	
 	html unorderedList: [ self renderPlayersOn: html ].
 	
-	MagnetTagHome siteFooter: html.
+	MagnetTag siteFooter: html.

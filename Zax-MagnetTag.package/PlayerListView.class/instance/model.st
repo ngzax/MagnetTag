@@ -1,3 +1,3 @@
 rendering
 model
-	^ GameMaster players.
+	^ MagnetTag players.

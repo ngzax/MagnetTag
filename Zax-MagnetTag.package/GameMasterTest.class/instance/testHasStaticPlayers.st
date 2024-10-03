@@ -1,3 +1,7 @@
 testing
 testHasStaticPlayers
-	self assert: (GameMaster players notEmpty).
+	| master game |
+	master := GameMaster new.
+	game := master startGame.
+	self assert: (game players notEmpty).
+	self assert: (game players size = 4).
