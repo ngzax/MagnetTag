@@ -11,3 +11,5 @@ siteFooter: html
 	  	      html render: Date today 
 		].
 	].
+ 	html div class: 'debug-grid'.
+ 	html script url: (MTFileLibrary urlOf: #indexJs).

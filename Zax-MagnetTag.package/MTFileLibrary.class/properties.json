@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Players" ],
-	"commentStamp" : "DJR 7/29/2024 16:02",
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MagnetTag",
+	"name" : "MTFileLibrary",
 	"pools" : [
 		 ],
-	"super" : "StyledWAComponent",
+	"super" : "WAFileLibrary",
 	"type" : "normal" }

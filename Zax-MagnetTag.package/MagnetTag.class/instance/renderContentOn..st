@@ -5,7 +5,7 @@ renderContentOn: html
 
 	html paragraph: [
  		html 
-			render: 'MagnetTag is a game you play against 3 other players on a random, ';
+			render: 'This is a game you play against 3 other players on a random, ';
    		     	emphasis: 'unknown '; 
 			render: 'Board.'.
 		html unorderedList: [
