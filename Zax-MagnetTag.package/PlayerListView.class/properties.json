@@ -10,5 +10,5 @@
 	"name" : "PlayerListView",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "StyledWAComponent",
 	"type" : "normal" }
