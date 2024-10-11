@@ -3,6 +3,6 @@
 		 },
 	"instance" : {
 		"cellsPerSide" : "DJR 7/10/2024 16:38",
-		"initialize" : "DJR 7/10/2024 16:34",
+		"initialize" : "DJR 10/11/2024 15:43",
 		"newCellAt:at:" : "DJR 7/10/2024 17:11",
 		"toggleNeighboursOfCellAt:at:" : "DJR 7/10/2024 17:17" } }
