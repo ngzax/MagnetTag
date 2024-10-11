@@ -1,1 +1,1 @@
-This will be the root page for the MagnetTag website.
+This will be the main page for displaying a Player.
