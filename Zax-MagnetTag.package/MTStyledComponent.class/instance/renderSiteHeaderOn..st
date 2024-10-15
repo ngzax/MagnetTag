@@ -1,5 +1,5 @@
-site-layout
-siteHeader: html
+rendering
+renderSiteHeaderOn: html
 	html div class: 'grid'; with: [ 
 		html anchor url: '/mt'; with: [
 		    html image

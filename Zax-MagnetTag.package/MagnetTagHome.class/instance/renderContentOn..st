@@ -1,7 +1,7 @@
 rendering
 renderContentOn: html
 	"Render the MagnetTag Home Page."
-	self class siteHeader: html.
+	self  renderSiteHeaderOn: html.
 
 	html paragraph: [
  		html 
@@ -14,4 +14,4 @@ renderContentOn: html
 		].
 		html break.
 	].
-	self class siteFooter: html.
+	self renderSiteFooterOn: html.

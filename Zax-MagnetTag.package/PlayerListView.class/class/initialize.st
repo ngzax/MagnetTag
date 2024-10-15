@@ -1,4 +1,4 @@
 as yet unclassified
 initialize
 	"self initialize"
-	WAAdmin register: self asApplicationAt: 'players'.
+	WAAdmin register: self asApplicationAt: 'mt/players'.

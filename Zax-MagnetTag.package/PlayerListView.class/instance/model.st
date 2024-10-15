@@ -1,3 +1,3 @@
 rendering
 model
-	^ MagnetTag players.
+	^ MagnetTagHome allPlayers.

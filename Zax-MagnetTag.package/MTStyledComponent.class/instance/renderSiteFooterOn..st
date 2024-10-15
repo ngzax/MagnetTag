@@ -1,5 +1,5 @@
-site-layout
-siteFooter: html
+rendering
+renderSiteFooterOn: html
 	"Draws the standard page footer."
 	html horizontalRule.
 	html div class: 'container'; with: [

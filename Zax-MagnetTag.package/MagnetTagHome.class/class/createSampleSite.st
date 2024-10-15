@@ -1,7 +1,7 @@
 class initialization
 createSampleSite
 	"Set up fake metadata for the sample site."
-	Players := OrderedCollection new
+	PlayerDB := OrderedCollection new
  		add: (MTPlayer named: '~zod');
 		add: (MTPlayer named: '~nec');
 		add: (MTPlayer named: '~bud');
