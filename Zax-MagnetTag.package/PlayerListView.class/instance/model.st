@@ -1,3 +1,3 @@
-rendering
+accessing
 model
-	^ MagnetTagHome allPlayers.
+	^ model.

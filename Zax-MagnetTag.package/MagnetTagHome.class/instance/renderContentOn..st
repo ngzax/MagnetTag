@@ -10,8 +10,17 @@ renderContentOn: html
 			render: 'Board.'.
 		html unorderedList: [
 			html listItem: [html anchor url: 'game'; with: ' Play'].
-			html listItem: [html anchor url: 'players';	with: ' Show All Players'].
+			html listItem: [
+				html anchor callback: [self showAllPlayers: (self class allPlayers)];
+				with: ' Show All Players'].
 		].
+		html  div 
+			class: 'container'; 
+			style: 'display: none'; 
+			with: [
+				html horizontalRule.
+				html render: 'placeholder'.
+			].
 		html break.
 	].
 	self renderSiteFooterOn: html.

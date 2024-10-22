@@ -1,3 +1,3 @@
-as yet unclassified
+rendering
 edit: aPlayer
     self inform: aPlayer name.
