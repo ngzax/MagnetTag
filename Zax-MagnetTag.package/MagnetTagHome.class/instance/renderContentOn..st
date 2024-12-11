@@ -12,7 +12,7 @@ renderContentOn: html
 			html listItem: [html anchor url: 'game'; with: ' Play'].
 			html listItem: [
 				html anchor callback: [self showAllPlayers: (self class allPlayers)];
-				with: ' Show All Players'].
+				with: ' Show Players'].
 		].
 		html  div 
 			class: 'container'; 
