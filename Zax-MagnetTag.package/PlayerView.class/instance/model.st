@@ -1,3 +1,3 @@
-rendering
+accessing
 model
 	^ self player.
