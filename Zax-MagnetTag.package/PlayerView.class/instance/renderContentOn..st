@@ -8,14 +8,14 @@ renderContentOn: html
 			html render: 'Home >'.
 			html space.
 			html anchor callback: [self answer]; with: 'All Players'.
+			html space.
+			html render: '> ', self model name.
 		].
 	].
 
 	html paragraph: [
-		html unorderedList: [
-			html listItem: [ html render: self model name ].
-			html listItem: [ html render: self model sheet ]. 
-		].
-	]. 
+		html render: 'Name: ', self model name; break.
+		html render: 'Sheet: ', self model sheet.
+	].
 	
 	self renderSiteFooterOn: html.
