@@ -1,3 +1,3 @@
 tests
 testHasAName
-	self assert: (player name = '~zod').
+	self assert: (player name = 'Daryl').

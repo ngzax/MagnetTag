@@ -5,8 +5,8 @@ renderContentOn: html
 	
 	html div class: 'container'; with: [
 		html paragraph: [
-			html render: 'Home >'.
-			html space.
+			html anchor url: '/mt'; with: 'Home'.
+			html render: ' > '.
 			html anchor callback: [self answer]; with: 'All Players'.
 			html space.
 			html render: '> ', self model name.
@@ -14,8 +14,9 @@ renderContentOn: html
 	].
 
 	html paragraph: [
-		html render: 'Name: ', self model name; break.
-		html render: 'Sheet: ', self model sheet.
+		html render: 'Urbit Id: ', self model id; break.
+		html render: 'Name: ',   self model name; break.
+		html render: 'Sheet: ',   self model sheet.
 	].
 	
 	self renderSiteFooterOn: html.

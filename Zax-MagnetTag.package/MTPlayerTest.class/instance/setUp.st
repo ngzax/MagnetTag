@@ -1,4 +1,4 @@
 running
 setUp
 
-	player := MTPlayer named: '~zod'.
+	player := MTPlayer named: 'Daryl' withId: '~zod'.
