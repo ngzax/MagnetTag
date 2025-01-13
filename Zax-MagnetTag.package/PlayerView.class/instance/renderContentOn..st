@@ -13,10 +13,16 @@ renderContentOn: html
 		].
 	].
 
-	html paragraph: [
-		html render: 'Urbit Id: ', self model id; break.
-		html render: 'Name: ',   self model name; break.
-		html render: 'Sheet: ',   self model sheet.
-	].
+	html table: [
+ 		html tableRow: [
+ 			html tableHeading style: 'width: 30%'; with: 'Urbit ID'.
+			html tableData: self model id ].
+ 		html tableRow: [
+ 			html tableHeading: 'Name'.
+			html tableData: self model name ].
+ 		html tableRow: [
+ 			html tableHeading: 'Sheet'.
+			html tableData: self model sheet ].
+		].
 	
 	self renderSiteFooterOn: html.
