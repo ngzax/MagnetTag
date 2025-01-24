@@ -9,7 +9,9 @@ renderContentOn: html
    		     	emphasis: 'unknown '; 
 			render: 'Board.'.
 		html unorderedList: [
-			html listItem: [html anchor url: 'game'; with: ' Play'].
+			html listItem: [
+				html anchor callback: [self showAllGames: (self class allGames)]; 
+				with: ' Play a Game.'].
 			html listItem: [
 				html anchor callback: [self showAllPlayers: (self class allPlayers)];
 				with: ' Show Players'].

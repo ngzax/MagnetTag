@@ -3,12 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"GameDB",
-		"PlayerDB" ],
-	"commentStamp" : "DJR 7/29/2024 16:02",
-	"instvars" : [
 		 ],
-	"name" : "MagnetTagHome",
+	"commentStamp" : "",
+	"instvars" : [
+		"model" ],
+	"name" : "MTListView",
 	"pools" : [
 		 ],
 	"super" : "MTStyledComponent",

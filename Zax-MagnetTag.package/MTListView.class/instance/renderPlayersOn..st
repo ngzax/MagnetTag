@@ -1,0 +1,3 @@
+rendering
+renderPlayersOn: html
+	self subclassResponsibility
