@@ -1,0 +1,14 @@
+{
+	"category" : "Zax-MagnetTag",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model" ],
+	"name" : "GameView",
+	"pools" : [
+		 ],
+	"super" : "MTStyledComponent",
+	"type" : "normal" }
