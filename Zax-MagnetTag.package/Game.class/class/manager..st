@@ -4,5 +4,5 @@ manager: aGameMaster
 	^ self new
 		gm: aGameMaster;
 		inProgress: false;
-		players: MagnetTagHome allPlayers;
+		players: nil;
 		yourself.
