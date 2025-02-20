@@ -4,5 +4,5 @@ manager: aGameMaster
 	^ self new
 		gm: aGameMaster;
 		inProgress: false;
-		players: nil;
+		players: OrderedCollection new;
 		yourself.
