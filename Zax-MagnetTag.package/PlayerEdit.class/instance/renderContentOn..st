@@ -2,32 +2,31 @@ rendering
 renderContentOn: html
 	"Render a MagnetTag Player Page."
 	self renderSiteHeaderOn: html.
-	
-	html div class: 'container'; with: [
-		html paragraph: [
-			html anchor url: '/mt'; with: 'Home'.
-			html render: ' > '.
-			html anchor callback: [self answer]; with: 'All Players'.
-			html space.
-			html render: '> ', self model name.
-		].
-	].
+	self breadcrumb: html.	
 
       html form: [
 		html table: [
  			html tableRow: [
- 				html tableHeading style: 'width: 30%'; with: 'Urbit ID'.
+ 				html tableHeading style: 'width: 20%'; with: 'Urbit ID'.
 				html tableData: [
 					html textInput
-            				value: self model id;
-            				callback: [ :value | self model id: value ] ]. 
-			].
+            				value: self player id;
+            				callback: [ :value | self player id: value ] ]. ].
  			html tableRow: [
  				html tableHeading: 'Name'.
-				html tableData: self model name ].
+				html tableData: [
+					html textInput
+            				value: self player name;
+            				callback: [ :value | self player name: value ] ]. ].
  			html tableRow: [
  				html tableHeading: 'Sheet'.
-				html tableData: self model sheet ]. ].
+				html tableData: [self model sheet ]. ].
+			html tableRow: [
+				html tableHeading: ''.
+                        html tableData: [
+					html submitButton
+  	 	         			callback: [ self save ];
+     		       			value: 'Save'].	]. ].
 	].
 	
 	self renderSiteFooterOn: html.
