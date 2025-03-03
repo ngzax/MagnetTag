@@ -26,6 +26,7 @@ renderContentOn: html
                         html tableData: [
 					html submitButton
   	 	         			callback: [ self save ];
+					  	style: 'background: grey; color: white; float: right; width:20%';
      		       			value: 'Save'].	]. ].
 	].
 	
