@@ -1,3 +1,3 @@
 delegation
 show: aPlayer
-	self call: (PlayerEdit new model: aPlayer copy).
+	self call: (PlayerView new model: aPlayer copy).

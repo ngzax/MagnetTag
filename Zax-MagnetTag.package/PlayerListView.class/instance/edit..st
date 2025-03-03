@@ -1,3 +1,3 @@
 delegation
 edit: aPlayer
-    self inform: aPlayer name.
+	self call: (PlayerEdit new model: aPlayer).

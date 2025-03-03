@@ -24,5 +24,7 @@ renderContentOn: html
  			html tableHeading: 'Sheet'.
 			html tableData: self model sheet ].
 		].
+
+	html anchor callback: [self answer]; with: 'Edit'.
 	
 	self renderSiteFooterOn: html.

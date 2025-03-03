@@ -1,4 +1,8 @@
 as yet unclassified
 save
-	"For now let's just display the contact information"
-	self inform: self player id , '--' , self player name.
+	"Persist the desired values."
+	self model 
+		id: self player id; 
+		name: self player name.
+		
+	self inform: 'Changes saved!'.
