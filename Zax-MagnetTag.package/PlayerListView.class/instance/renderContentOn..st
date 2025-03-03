@@ -11,7 +11,7 @@ renderContentOn: html
 	].
 
 	html paragraph: [
-		html unorderedList: [ self renderPlayersOn: html ].
+		self renderPlayersOn: html.
 	].
 
 	self renderSiteFooterOn: html.
