@@ -1,7 +1,7 @@
 rendering
 renderPlayersOn: html
-	html tableData: [
-		html tableRow: [
-			self model do: [ :p | self renderPlayer: p on: html ].
+	html table style: 'border: none'; with: [
+		self model do: [ :p | 
+ 			self renderPlayer: p on: html 
 		].
 	].

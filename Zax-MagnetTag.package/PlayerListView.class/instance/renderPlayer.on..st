@@ -1,11 +1,13 @@
 rendering
 renderPlayer: aPlayer on: html
-	html tableHeading style: 'width: 20%'; with: aPlayer name.
-	html tableData: [
-		html anchor
-			callback: [self show: aPlayer];
-			with: '[View]'. ].
-	html tableData: [
-		html anchor
-			callback: [self edit: aPlayer];
-			with: '[Edit]'. ].
+	html tableRow: [
+		html tableHeading style: 'width: 50%'; with: aPlayer name.
+		html tableData style: 'text-align: center' ; with: [
+			html anchor
+				callback: [self show: aPlayer];
+				with: '[View]'. ].
+		html tableData style: 'text-align: center' ; with: [
+			html anchor
+				callback: [self edit: aPlayer];
+				with: '[Edit]'. ].
+	].
