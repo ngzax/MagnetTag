@@ -9,6 +9,7 @@
 		"board",
 		"gm",
 		"inProgress",
+		"name",
 		"players" ],
 	"name" : "Game",
 	"pools" : [

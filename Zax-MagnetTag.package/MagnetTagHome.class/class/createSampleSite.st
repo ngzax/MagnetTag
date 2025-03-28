@@ -2,7 +2,7 @@ class initialization
 createSampleSite
 	"Set up fake metadata for the sample site."
 	GameDB := OrderedCollection new
- 		add: (Game manager: (GameMaster new));
+ 		add: (Game named: 'Sample Game' withManager: (GameMaster new));
  		yourself.
 
 	PlayerDB := OrderedCollection new
