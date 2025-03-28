@@ -11,10 +11,10 @@ renderContentOn: html
 		html unorderedList: [
 			html listItem: [
 				html anchor callback: [self showAllGames: (self class allGames)]; 
-				with: ' Play a Game.'].
+				with: ' Show All Games'].
 			html listItem: [
 				html anchor callback: [self showAllPlayers: (self class allPlayers)];
-				with: ' Show Players'].
+				with: ' Show All Players'].
 		].
 		html  div 
 			class: 'container'; 
