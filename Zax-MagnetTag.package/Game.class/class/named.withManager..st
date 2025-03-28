@@ -6,5 +6,4 @@ named: aName withManager: aGameMaster
 		id: ((Random new nextInt: 100000000000) printStringBase: 36) asLowercase;
 		inProgress: false;
 		name: aName;
-		players: OrderedCollection new;
 		yourself.

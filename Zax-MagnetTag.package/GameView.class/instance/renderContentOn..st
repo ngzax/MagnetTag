@@ -23,6 +23,12 @@ renderContentOn: html
  		html tableRow: [
  			html tableHeading: 'Game Master'.
 			html tableData: self model gm ].
+  		html tableRow: [
+ 			html tableHeading: 'In Progress?'.
+			html tableData: self model inProgress ].
+		html tableRow: [
+ 			html tableHeading: 'Players'.
+			html tableData: self model players ].
 		].
 	
 	self renderSiteFooterOn: html.
