@@ -1,6 +1,6 @@
 rendering
 renderContentOn: html
-	"Render a MagnetTag Player Page."
+	"Render a MagnetTag Game Page."
 	self renderSiteHeaderOn: html.
 	
 	html div class: 'container'; with: [
@@ -13,10 +13,9 @@ renderContentOn: html
 		].
 	].
 
-
 	html table: [
  		html tableRow: [
- 			html tableHeading style: 'width: 30%'; with: 'Urbit ID'.
+ 			html tableHeading style: 'width: 30%'; with: 'ID'.
 			html tableData: self model id ].
  		html tableRow: [
  			html tableHeading: 'Name'.

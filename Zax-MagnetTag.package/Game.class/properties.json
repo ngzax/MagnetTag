@@ -8,6 +8,7 @@
 	"instvars" : [
 		"board",
 		"gm",
+		"id",
 		"inProgress",
 		"name",
 		"players" ],

@@ -1,8 +1,5 @@
 instance creation
 manager: aGameMaster
-	"Answers a new MagnetTag Game managed by the passed GameMaster."
-	^ self new
-		gm: aGameMaster;
-		inProgress: false;
-		players: OrderedCollection new;
-		yourself.
+	"Answers a new MagnetTag Game without a Name managed by the passed GameMaster."
+	"DEPRECATED"
+	^ Game named: '' withManager: aGameMaster.
