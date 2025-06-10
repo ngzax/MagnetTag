@@ -6,6 +6,6 @@ baseline: spec
 		do: [
 			"Packages"
 			spec 
-				package: 'Zax-MagnetTag'
+				package: 'MagnetTag'
 				"package: 'MagnetTag-Tests' with: [ spec requires: #('MagnetTag') ]"
 		]

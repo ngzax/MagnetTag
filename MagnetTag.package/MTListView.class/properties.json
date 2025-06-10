@@ -1,0 +1,14 @@
+{
+	"category" : "MagnetTag",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model" ],
+	"name" : "MTListView",
+	"pools" : [
+		 ],
+	"super" : "MTStyledComponent",
+	"type" : "normal" }
