@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfMagnetTag",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfMagnetTag",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

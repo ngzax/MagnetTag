@@ -1,0 +1,14 @@
+{
+	"category" : "MagnetTag",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"player" ],
+	"name" : "PlayerEdit",
+	"pools" : [
+		 ],
+	"super" : "MTStyledComponent",
+	"type" : "normal" }

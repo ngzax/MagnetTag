@@ -1,0 +1,14 @@
+{
+	"category" : "MagnetTag",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "PlayerListView",
+	"pools" : [
+		 ],
+	"super" : "MTListView",
+	"type" : "normal" }
