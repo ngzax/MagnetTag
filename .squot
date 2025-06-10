@@ -1,3 +1,4 @@
 OrderedDictionary {
-	'Zax-MagnetTag.package' : #SquotCypressCodeSerializer
+	'Zax-MagnetTag.package' : #SquotCypressCodeSerializer,
+	'BaselineOfMagnetTag.package' : #SquotCypressCodeSerializer
 }
