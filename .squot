@@ -1,4 +1,0 @@
-OrderedDictionary {
-	'BaselineOfMagnetTag.package' : #SquotCypressCodeSerializer,
-	'MagnetTag.package' : #SquotCypressCodeSerializer
-}
