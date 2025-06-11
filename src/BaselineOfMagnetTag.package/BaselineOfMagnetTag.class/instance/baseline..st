@@ -1,11 +1,11 @@
-as yet unclassified
+baselines
 baseline: spec
 	<baseline>
 	spec
 		for: #common
 		do: [
 			"Packages"
-			spec 
+			spec
 				package: 'MagnetTag'
 				"package: 'MagnetTag-Tests' with: [ spec requires: #('MagnetTag') ]"
 		]

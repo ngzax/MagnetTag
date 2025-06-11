@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "DJR 7/9/2024 16:18",
-		"testCanManageAGame" : "DJR 8/27/2024 17:35",
-		"testInitiallyHasNoPlayers" : "DJR 2/20/2025 17:27" } }

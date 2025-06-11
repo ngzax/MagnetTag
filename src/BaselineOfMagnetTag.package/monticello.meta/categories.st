@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfMagnetTag!
+self packageOrganizer ensurePackage: #BaselineOfMagnetTag withTags: #()!
