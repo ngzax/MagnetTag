@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "DJR 10/11/2024 11:48",
+	"super" : "MTStyledComponent",
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"player"
+	],
+	"name" : "PlayerView",
+	"type" : "normal"
+}

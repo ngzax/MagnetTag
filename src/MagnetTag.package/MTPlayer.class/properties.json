@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "DJR 8/1/2024 15:17",
+	"super" : "Object",
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"name",
+		"sheet"
+	],
+	"name" : "MTPlayer",
+	"type" : "normal"
+}

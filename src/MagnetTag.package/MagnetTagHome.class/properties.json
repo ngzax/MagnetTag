@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "DJR 7/29/2024 16:02",
+	"super" : "MTStyledComponent",
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"GameDB",
+		"PlayerDB"
+	],
+	"instvars" : [ ],
+	"name" : "MagnetTagHome",
+	"type" : "normal"
+}

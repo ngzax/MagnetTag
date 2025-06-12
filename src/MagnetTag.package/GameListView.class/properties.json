@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MTListView",
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"models"
+	],
+	"name" : "GameListView",
+	"type" : "normal"
+}

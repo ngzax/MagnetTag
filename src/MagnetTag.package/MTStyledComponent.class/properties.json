@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DJR 10/4/2024 14:34",
+	"super" : "WAComponent",
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MTStyledComponent",
+	"type" : "normal"
+}

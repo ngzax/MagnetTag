@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "DJR 7/10/2024 16:10",
+	"super" : "SimpleSwitchMorph",
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mouseAction"
+	],
+	"name" : "BoardCell",
+	"type" : "normal"
+}

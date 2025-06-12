@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "DJR 7/9/2024 11:28",
+	"super" : "TestCase",
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"game"
+	],
+	"name" : "GameTest",
+	"type" : "normal"
+}
