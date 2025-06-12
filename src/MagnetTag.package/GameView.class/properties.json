@@ -1,14 +1,13 @@
 {
-	"category" : "MagnetTag",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"model" ],
-	"name" : "GameView",
-	"pools" : [
-		 ],
 	"super" : "MTStyledComponent",
-	"type" : "normal" }
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model"
+	],
+	"name" : "GameView",
+	"type" : "normal"
+}

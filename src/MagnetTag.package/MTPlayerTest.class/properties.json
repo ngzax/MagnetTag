@@ -1,14 +1,13 @@
 {
-	"category" : "MagnetTag",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"player" ],
-	"name" : "MTPlayerTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"player"
+	],
+	"name" : "MTPlayerTest",
+	"type" : "normal"
+}

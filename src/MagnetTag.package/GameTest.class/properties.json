@@ -1,14 +1,13 @@
 {
-	"category" : "MagnetTag",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DJR 7/9/2024 11:28",
-	"instvars" : [
-		"game" ],
-	"name" : "GameTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"game"
+	],
+	"name" : "GameTest",
+	"type" : "normal"
+}

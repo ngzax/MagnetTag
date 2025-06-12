@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #MagnetTag!
+self packageOrganizer ensurePackage: #MagnetTag withTags: #()!

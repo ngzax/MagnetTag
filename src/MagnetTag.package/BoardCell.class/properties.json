@@ -1,14 +1,13 @@
 {
-	"category" : "MagnetTag",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DJR 7/10/2024 16:10",
-	"instvars" : [
-		"mouseAction" ],
-	"name" : "BoardCell",
-	"pools" : [
-		 ],
 	"super" : "SimpleSwitchMorph",
-	"type" : "normal" }
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mouseAction"
+	],
+	"name" : "BoardCell",
+	"type" : "normal"
+}

@@ -1,15 +1,14 @@
 {
+	"commentStamp" : "DJR 7/29/2024 16:02",
+	"super" : "MTStyledComponent",
 	"category" : "MagnetTag",
-	"classinstvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [
 		"GameDB",
-		"PlayerDB" ],
-	"commentStamp" : "DJR 7/29/2024 16:02",
-	"instvars" : [
-		 ],
+		"PlayerDB"
+	],
+	"instvars" : [ ],
 	"name" : "MagnetTagHome",
-	"pools" : [
-		 ],
-	"super" : "MTStyledComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}

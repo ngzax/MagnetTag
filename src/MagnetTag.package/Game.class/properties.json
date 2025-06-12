@@ -1,19 +1,18 @@
 {
-	"category" : "MagnetTag",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DJR 9/10/2024 17:09",
+	"super" : "Object",
+	"category" : "MagnetTag",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"board",
 		"gm",
 		"id",
 		"inProgress",
 		"name",
-		"players" ],
+		"players"
+	],
 	"name" : "Game",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}
